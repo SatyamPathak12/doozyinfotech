@@ -119,7 +119,7 @@ const ServicesHero = ({ setCurrentPage }) => {
 />
 
 
-        <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+        <ul className="list-none sm:flex hidden justify-end items-center flex-1 -mb-6">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
@@ -180,13 +180,13 @@ const ServicesHero = ({ setCurrentPage }) => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
             <button 
-              onClick={() => window.location.href = 'mailto:info@alliancecorps.com?subject=Get Quote - Doozy Infotechs'}
+              onClick={() => window.location.href = 'mailto:m@drema.in?subject=Get Quote - Doozy Infotechs'}
               className="bg-secondary text-white font-poppins font-semibold text-[18px] py-4 px-8 rounded-[10px] hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_25px_rgba(255,255,255,0.4)]"
             >
               Get Quote
             </button>
             <button 
-              onClick={() => window.location.href = 'mailto:info@alliancecorps.com?subject=Portfolio Request - Doozy Infotechs'}
+              onClick={() => window.location.href = 'mailto:m@drema.in?subject=Portfolio Request - Doozy Infotechs'}
               className="border-2 border-secondary text-secondary font-poppins font-semibold text-[18px] py-4 px-8 rounded-[10px] hover:bg-secondary hover:text-primary transition-all duration-300"
             >
               View Portfolio
@@ -760,7 +760,7 @@ const ServicesContent = () => (
         Looking to build the future of your business with cutting-edge digital solutions?
       </h3>
       <button 
-        onClick={() => window.location.href = 'mailto:info@alliancecorps.com?subject=Request Quote - Doozy Infotechs'}
+        onClick={() => window.location.href = 'mailto:m@drema.in?subject=Request Quote - Doozy Infotechs'}
         className="bg-secondary text-white font-poppins font-semibold text-[20px] py-5 px-10 rounded-[15px] hover:scale-105 transition-all duration-300 shadow-[0_8px_32px_rgba(0,0,255,0.4)] hover:shadow-[0_12px_40px_rgba(0,0,255,0.6)] border-2 border-white/20"
       >
         Request a Quote

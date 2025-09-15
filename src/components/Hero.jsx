@@ -55,18 +55,19 @@ const Hero = ({ setCurrentPage }) => {
 
 
         <ul className="list-none sm:flex hidden justify-end items-center flex-1 pointer-events-auto">
-          {navLinks.map((nav, index) => (
-            <li
-              key={nav.id}
-              className={`font-poppins font-normal cursor-pointer text-[16px] ${
-                active === nav.title ? "text-white" : "text-dimWhite"
-              } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-              onClick={() => handleNavClick(nav)}
-            >
-              {nav.title}
-            </li>
-          ))}
-        </ul>
+  {navLinks.map((nav, index) => (
+    <li
+      key={nav.id}
+      className={`font-poppins font-normal cursor-pointer text-[16px] flex items-center ${
+        active === nav.title ? "text-white" : "text-dimWhite"
+      } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+      onClick={() => handleNavClick(nav)}
+    >
+      {nav.title}
+    </li>
+  ))}
+</ul>
+
 
         <div className="sm:hidden flex justify-end items-center pointer-events-auto">
           <img
@@ -108,7 +109,7 @@ const Hero = ({ setCurrentPage }) => {
 
           <div className="flex justify-center items-center mt-8">
             <button 
-              onClick={() => window.location.href = 'mailto:info@alliancecorps.com?subject=Get Started - Doozy Infotechs'}
+              onClick={() => window.location.href = 'mailto:m@drema.in?subject=Get Started - Doozy Infotechs'}
               className="bg-secondary text-white font-poppins font-semibold text-[18px] py-4 px-8 rounded-[10px] hover:scale-105 transition-all duration-300 pointer-events-auto shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_25px_rgba(255,255,255,0.4)]"
             >
               Get Started
@@ -121,7 +122,7 @@ const Hero = ({ setCurrentPage }) => {
       {/* Fixed Floating Contact Us Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <button 
-          onClick={() => window.location.href = 'mailto:info@alliancecorps.com?subject=Contact Us - Doozy Infotech'}
+          onClick={() => window.location.href = 'mailto:m@drema.in?subject=Contact Us - Doozy Infotech'}
           className="bg-secondary text-white font-poppins font-medium text-[14px] py-3 px-6 rounded-full shadow-[0_8px_32px_rgba(255,255,255,0.15)] hover:shadow-[0_12px_40px_rgba(255,255,255,0.25)] hover:scale-105 transition-all duration-300 flex items-center gap-2"
         >
           <span>Contact Us</span>

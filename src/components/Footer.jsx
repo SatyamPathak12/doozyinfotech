@@ -35,7 +35,7 @@ const Footer = () => {
             <span className="text-white font-medium">Data Storage & Security:</span> Data may be stored on third-party hosting (Azure, AWS, etc.). Reasonable protection measures are taken, but absolute security cannot be guaranteed.
           </p>
           <p className="font-poppins font-normal text-dimWhite leading-[20px]">
-            <span className="text-white font-medium">Your Choices:</span> You may opt out of marketing communications anytime by contacting info@alliancecorps.com.
+            <span className="text-white font-medium">Your Choices:</span> You may opt out of marketing communications anytime by contacting m@drema.in.
           </p>
           <p className="font-poppins font-normal text-dimWhite leading-[20px]">
             <span className="text-white font-medium">Updates to This Policy:</span> Updates will be posted here with a new effective date.
@@ -290,7 +290,7 @@ const Footer = () => {
               <div>
                 <h3 className="text-white font-medium text-[16px] mb-2">Your Choices</h3>
                 <p className="font-poppins font-normal text-dimWhite leading-[20px]">
-                  You may opt out of marketing communications anytime by contacting info@alliancecorps.com.
+                  You may opt out of marketing communications anytime by contacting m@drema.in.
                 </p>
               </div>
 
